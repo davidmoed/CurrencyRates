@@ -9,6 +9,9 @@ let totalAPICalls = 0;
 let allJsonData = [];
 let allJsonDates = [];
 
+//Set your API key here
+const API_KEY = "114c133129102e25d2871f2f792e813e";
+
 //pass the date wanted, and the scope from within componentDidMount to make multiple api
 //calls and update the state each time to reflect the total number of calls and the data
 function getAPIData (date, scope) {
@@ -17,7 +20,7 @@ function getAPIData (date, scope) {
    allJsonDates.push(date, date, date);
 
    //call the API and get the result as json
-   fetch("http://data.fixer.io/api/" + date + "?access_key=114c133129102e25d2871f2f792e813e&symbols=USD,MXN,ILS").then(result => {
+   fetch("http://data.fixer.io/api/" + date + "?access_key=" + API_KEY + "&symbols=USD,MXN,ILS").then(result => {
      return result.json();
   }).then(jsonResult => {
 
