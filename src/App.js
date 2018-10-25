@@ -16,7 +16,6 @@ class App extends Component {
            <p>Currency Tracker</p>
         </div>
 
-
         <Draggable
            defaultPosition={{x: 0, y: 0}}
            position={null}
@@ -29,7 +28,6 @@ class App extends Component {
            <div className="graph-container">
               <p>Currencies compared to the Euro over the last week</p>
 
-              
               <Resizable
                  defaultSize={{
                    width:600,
