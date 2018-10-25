@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-main {
+  background-color: #2f3144;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  overflow: hidden;
+}
+
+.header {
+   position: fixed;
+   top: 5px;
+}
+
+.graph-container {
+   border: 1px solid #ffffff;
+   border-radius: 5px;
+   padding: 5px;
+   overflow: hidden;
+   min-height: 210px;
+}
+
+.footer {
+   position: fixed;
+   bottom: 5px;
+}
