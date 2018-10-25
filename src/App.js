@@ -16,7 +16,7 @@ class App extends Component {
            <p>Currency Tracker</p>
         </div>
 
-        // make the chart section and title draggable
+
         <Draggable
            defaultPosition={{x: 0, y: 0}}
            position={null}
@@ -29,7 +29,7 @@ class App extends Component {
            <div className="graph-container">
               <p>Currencies compared to the Euro over the last week</p>
 
-              //allow the chart to be resized with a locked aspect ratio
+              
               <Resizable
                  defaultSize={{
                    width:600,
