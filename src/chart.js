@@ -12,6 +12,7 @@ let allJsonDates = [];
 //Set your API key here
 const API_KEY = "114c133129102e25d2871f2f792e813e";
 
+
 //pass the date wanted, and the scope from within componentDidMount to make multiple api
 //calls and update the state each time to reflect the total number of calls and the data
 function getAPIData (date, scope) {
